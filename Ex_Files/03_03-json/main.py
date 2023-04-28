@@ -1,4 +1,4 @@
-# csv --> json data
+# run this: csv --> json data
 import csv
 import json
 from pprint import pprint
