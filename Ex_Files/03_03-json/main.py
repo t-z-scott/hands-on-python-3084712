@@ -1,3 +1,4 @@
+# csv --> json data
 import csv
 import json
 from pprint import pprint
@@ -11,8 +12,8 @@ EINSTEIN = {
     "motivation": "for his services to Theoretical Physics...",
 }
 
-einstein_json = json.dumps(EINSTEIN)
-back_to_dict = json.loads(einstein_json)
+einstein_json = json.dumps(EINSTEIN)  # dictionary -> json
+back_to_dict = json.loads(einstein_json)  # json -> dictionary
 print(einstein_json)
 pprint(back_to_dict)
 
